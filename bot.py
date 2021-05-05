@@ -1,12 +1,14 @@
 import logging
 import telegram
 from telegram.ext import (Updater, CommandHandler, MessageHandler,  Filters, ConversationHandler)
-
+from Engine import make_continue_markovify
 TOKEN = open('key.txt').read()
 def start(bot, update):
     bot.message.reply_text("Hello. Write Text.")
 def Make_continue(bot, update):
-    bot.message.reply_text(bot.message.text)
+    print('ok')
+    print(make_continue_markovify(bot.message.text))
+    bot.message.reply_text(make_continue_markovify(bot.message.text))
 
 def main():
     my_bot = Updater(TOKEN)
