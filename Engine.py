@@ -12,7 +12,3 @@ def make_continue_markovify(start):
     except:
         return start + ' ' + text_model.make_sentence().replace(' _ ', '\n')
 
-
-start = input()
-print(start)
-print(make_continue_markovify(start))
