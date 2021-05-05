@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="987194e0-4121-4ebb-83ee-37f4845c19fa" name="Default Changelist" comment="Added logs" />
+    <list default="true" id="987194e0-4121-4ebb-83ee-37f4845c19fa" name="Default Changelist" comment="Added user-friendly interface">
+      <change beforePath="$PROJECT_DIR$/bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -148,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620225446611</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added user-friendly interface">
+      <created>1620225520031</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1620225520031</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +179,7 @@
     <MESSAGE value="test" />
     <MESSAGE value="Connected bot to model" />
     <MESSAGE value="Added logs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added logs" />
+    <MESSAGE value="Added user-friendly interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added user-friendly interface" />
   </component>
 </project>
