@@ -4,7 +4,7 @@ from telegram.ext import (Updater, CommandHandler, MessageHandler,  Filters, Con
 from Engine import make_continue_markovify
 TOKEN = open('key.txt').read()
 def start(bot, update):
-    bot.message.reply_text("Hello. Write Text.")
+    bot.message.reply_text("Привет! Напиши мне начало стиха, а я его продолжу!")
 def Make_continue(bot, update):
     with open("log.txt", "a") as fl:
         s =("User: " + str(bot.message.chat.username) + ', ' + str(bot.message.chat.first_name) + ', ' + str(bot.message.chat.last_name) + \
