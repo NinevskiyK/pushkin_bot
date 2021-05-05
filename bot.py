@@ -8,7 +8,7 @@ def start(bot, update):
 def Make_continue(bot, update):
     with open("log.txt", "a") as fl:
         s =("User: " + str(bot.message.chat.username) + ', ' + str(bot.message.chat.first_name) + ', ' + str(bot.message.chat.last_name) + \
-                  "Message: " + str(bot.message.text))
+                  " Message: " + str(bot.message.text))
         fl.writelines(s + '\n')
     bot.message.reply_text(make_continue_markovify(bot.message.text))
 
